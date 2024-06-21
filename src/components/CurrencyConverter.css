@@ -1,0 +1,29 @@
+.currency-converter {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .currency-converter {
+      flex-direction: row;
+    }
+  
+    .input-container {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+
+  }
+
+  .input-lebel{
+    margin-right: 10px;
+  }
